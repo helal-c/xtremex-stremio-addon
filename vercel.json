@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/index?resource=home"
+    },
+    {
+      "source": "/manifest.json",
+      "destination": "/api/index?resource=manifest"
+    },
+    {
+      "source": "/catalog/:type/:id.json",
+      "destination": "/api/index?resource=catalog&type=:type&id=:id"
+    },
+    {
+      "source": "/catalog/:type/:id/:extra.json",
+      "destination": "/api/index?resource=catalog&type=:type&id=:id&extra=:extra"
+    },
+    {
+      "source": "/meta/:type/:id.json",
+      "destination": "/api/index?resource=meta&type=:type&id=:id"
+    },
+    {
+      "source": "/stream/:type/:id.json",
+      "destination": "/api/index?resource=stream&type=:type&id=:id"
+    }
+  ]
+}
