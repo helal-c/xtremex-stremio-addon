@@ -1,0 +1,12 @@
+{
+  "name": "xtremex-stremio-addon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Starter Stremio addon for XtremeX catalogs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
